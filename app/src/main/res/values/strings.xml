@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quản Lý Thu Chi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Vũ Văn Tú - PH09410</string>
+    <string name="nav_header_subtitle">Xin Chào các bạn</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="loai_thu">Loai Thu</string>
+    <string name="khoan_thu">Khoản Thu</string>
+    <string name="khoan_chi">Khoản Chi</string>
+    <string name="thong_ke">Thông Kê</string>
+    <string name="gioithieu">Giới Thiệu</string>
+    <string name="thoat">Thoát</string>
+</resources>

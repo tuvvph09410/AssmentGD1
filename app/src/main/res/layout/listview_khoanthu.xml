@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tv_makt"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_tenkt"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_malt"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_sotien"
+                android:layout_width="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_ngaythu"
+                android:layout_width="80dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/IGB_sua"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <ImageButton
+                android:id="@+id/IGB_xoa"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@android:drawable/presence_busy" />
+
+            <ImageButton
+                android:id="@+id/IGB_xem"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@android:drawable/star_on" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
